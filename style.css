@@ -1,0 +1,113 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3bda1;
+}
+
+h1 {
+  color: #02475E;
+  font-size: 60px;
+  font-weight: 400;
+}
+h2 {
+  color: #f3bda1;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  font-size: 40px;
+  color: #02475E;
+}
+
+p {
+ color: #687980;
+ padding: 20px 0px 30px 0px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  color: #02475E;
+}
+
+
+.card-yellow {
+  background-color: #FEFECC;
+  width: 720px;
+  margin: 24px auto;
+  padding: 36px;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 5px 5px 5px #02475E;
+}
+
+.avatar-rounded {
+  width: 134px;
+  border-radius: 50%;
+  border: solid 3px #02475E;
+}
+
+.list-inline {
+  display: flex;
+  justify-content: center;
+}
+
+.list-inline li {
+  margin: 0 16px;
+}
+
+.btn-blue {
+  background-color: #02475E;
+  color: #FEFECC;
+  padding: 16px 32px;
+  border-radius: 36px;
+}
+
+.btn-blue:hover {
+  background-color: #FEFECC;
+  border: 2px solid #02475E;
+  color: #02475E;
+}
+
+.text-label {
+  color: #02475E;
+  padding: 8px 16px;
+}
+.text-aera {
+  background-color: #f3bda1;
+  color: #02475E;
+  padding: 8px 18px;
+  border-radius: 15px;
+ justify-content: right;
+ margin-bottom: 10px;
+}
+
+.contact-column{
+flex-direction: column;
+justify-content: center;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
